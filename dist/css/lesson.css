@@ -1,0 +1,166 @@
+@font-face{
+	font-family: "Lato";
+	src: url('../fonts/lato-regular-webfont.eot');
+    src: url('../fonts/lato-regular-webfont-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato-regular-webfont-regular-webfont.woff2') format('woff2'),
+         url('../fonts/lato-regular-webfont-regular-webfont.woff') format('woff'),
+         url('../fonts/lato-regular-webfont-regular-webfont.ttf') format('truetype'),
+         url('../fonts/lato-regular-webfont-regular-webfont.svg#cagliostroregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+	font-family: "Cagliostro";
+	src: url('../fonts/cagliostro-regular-webfont.eot');
+    src: url('../fonts/cagliostro-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/cagliostro-regular-webfont.woff2') format('woff2'),
+         url('../fonts/cagliostro-regular-webfont.woff') format('woff'),
+         url('../fonts/cagliostro-regular-webfont.ttf') format('truetype'),
+         url('../fonts/cagliostro-regular-webfont.svg#cagliostroregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+	font-family: "Kaushan";
+	src: url('../fonts/kaushanscript-regular-webfont.eot');
+    src: url('../fonts/kaushanscript-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/kaushanscript-regular-webfont.woff2') format('woff2'),
+         url('../fonts/kaushanscript-regular-webfont.woff') format('woff'),
+         url('../fonts/kaushanscript-regular-webfont.ttf') format('truetype'),
+         url('../fonts/kaushanscript-regular-webfont.svg#kaushanscriptregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*header*/
+.layer{
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	background-position: absolute;
+	min-height: 600px;
+}
+
+.navbar{
+	padding-top: 20px;
+}
+
+.navbar a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.nav li a:hover{
+	border-bottom: 3px #F7CA18 solid;
+	background-color: transparent;
+	color: #fff;
+}
+
+.bg-layer {
+    background-color: rgba(48, 63, 83, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+    text-transform: uppercase;
+}
+
+.text-layer{
+	padding-top: 200px;
+	text-align: center;
+	color: #F7CA18;
+}
+
+.text-layer a{
+	padding: 15px 25px;
+	background-color: #F7CA18;
+	border-radius: 8px;
+	border: 2px solid #F7CA18;
+	color: #fff;
+	text-decoration: none;
+	transition: all .4s ease-in-out;
+}
+
+.text-layer a:hover{
+	background-color: transparent;
+	color: #fff;
+}
+
+.affix {
+      top:0;
+      width: 100%;
+      background-color: #fff;
+      z-index: 9999 !important;
+      transition: all .6s ease-in-out;
+  }
+
+.affix a{
+	color: #F7CA18;
+}
+
+.affix li a:hover{
+	color: #F7CA18
+}
+
+.navbar {
+      margin-bottom: 0px;
+}
+
+.affix ~ .container-fluid {
+     position: relative;
+     top: 50px;
+}
+
+/*content*/
+.img-story{
+	width: 70%;
+	height: 70%;
+	padding-bottom: 50px;
+}
+
+.menu{
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: absolute;
+	background-size: 100% 100%;
+	min-height: 400px;
+
+}
+
+.bg-layer2 {
+    background-color: rgba(48, 63, 83, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+}
+
+
+.kaushan{font-family: 'Kaushan';}
+.lato{font-family: 'Lato';}
+.cagliostro{font-family: 'Cagliostro';}
+
+/* Font */
+.font-small{font-size: 12px;}
+.font-medium{font-size: 18px;}
+.font-large{font-size: 35px;}
+.font-extra-large{font-size: 60px;}
+
+/* Padding */
+.padding-top-small{padding-top: 15px;}
+.padding-top-medium{padding-top: 30px;}
+.padding-top-large{padding-top: 50px;}
+.padding-left-small{padding-left: 15px;}
+.padding-left-medium{padding-left: 30px;}
+.padding-left-large{padding-left: 50px;}
+
+/* Color */
+.jaffa{color: #EB974E;}
+.lemon{color: #F7CA18;}
+.white{color: #fff;}
