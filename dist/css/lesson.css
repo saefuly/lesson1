@@ -45,6 +45,7 @@
 
 .navbar{
 	padding-top: 20px;
+	box-shadow: 3px 3px 2px #000;
 }
 
 .navbar a{
@@ -127,12 +128,12 @@
 	background-attachment: fixed;
 	background-position: absolute;
 	background-size: 100% 100%;
-	min-height: 400px;
+	min-height: 650px;
 
 }
 
 .bg-layer2 {
-    background-color: rgba(48, 63, 83, 0.8);
+    background-color: rgba(0, 0, 0, 0.9);
     position: absolute;
     top: 0;
     left: 0;
@@ -141,14 +142,46 @@
     z-index: 99;
 }
 
+.img-culinary{
+	width: 300px;
+	height: 400px;
+}
+
+.text-btn a{
+	padding: 15px 25px;
+	background-color: #F7CA18;
+	border-radius: 8px;
+	border: 2px solid #F7CA18;
+	color: #fff;
+	text-decoration: none;
+	transition: all .4s ease-in-out;
+}
+
+.text-btn a:hover{
+	background-color: transparent;
+	color: #F7CA18;
+}
+
+.list-menu li{
+	list-style-type: none;
+	padding-top: 10px;
+	border: none;
+}
+
+/* Footer */
+.foo{
+	background-color: #000;
+	color: #fff;
+	min-height: 230px;
+}
 
 .kaushan{font-family: 'Kaushan';}
 .lato{font-family: 'Lato';}
 .cagliostro{font-family: 'Cagliostro';}
 
 /* Font */
-.font-small{font-size: 12px;}
-.font-medium{font-size: 18px;}
+.font-small{font-size: 14px;}
+.font-medium{font-size: 20px;}
 .font-large{font-size: 35px;}
 .font-extra-large{font-size: 60px;}
 
@@ -159,8 +192,19 @@
 .padding-left-small{padding-left: 15px;}
 .padding-left-medium{padding-left: 30px;}
 .padding-left-large{padding-left: 50px;}
+.padding-bottom-small{padding-bottom: 15px;}
+.padding-bottom-medium{padding-bottom: 30px;}
+.padding-bottom-large{padding-bottom: 50px;}
 
 /* Color */
 .jaffa{color: #EB974E;}
 .lemon{color: #F7CA18;}
 .white{color: #fff;}
+
+/* Margin */
+.margin-top-medium{margin-top: 30px;}
+.margin-top-small{margin-top: 15px;}
+.margin-top-large{margin-top: 50px;}
+.margin-left-small{margin-left: 15px;}
+.margin-left-medium{margin-left: 30px;}
+.margin-left-large{margin-left: 50px;}
